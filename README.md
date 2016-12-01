@@ -1,5 +1,7 @@
 # Firebase 3, Ionic 2 Demo
 
+**Note that this project has been entirely replaced with a new update that matches Ionic 2's RC2 release.**
+
 This project serves as a demo for how I integrated Firebase 3 into an Ionic 2 project.  It includes basic database syncing, as well as Firebase user authentication.  The goal was to create a demo app that could accompany [a blog post I wrote](https://webcake.co/using-firebase-3-in-angular-2-and-ionic-2/).
 
 ## Download and Installation
