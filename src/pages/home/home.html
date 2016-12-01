@@ -1,52 +1,56 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Intro</ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>Intro</ion-title>
+    </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h1>Firebase in Angular 2</h1>
-  <p>If you're interested in the files that I've changed to integrate Firebase and get this simple auth example working, they're:</p>
-  <ul>
-    <li><strong>www/index.html</strong> - you'll find that I've added the CDN reference to Firebase, as well as initialized the database</li>
-    <li>
-      <strong>app/data/data.service.ts</strong> - sets up Firebase database references
-    </li>
-    <li>
-      <strong>app/data/user.service.ts</strong> - abstracts Firebase auth methods
-    </li>
-    <li>
-      <strong>app/pages/home/</strong> - the currently active component
-      <ul>
-        <li><strong>home.html</strong> - the template you're currently viewing</li>
-      </ul>
-    </li>
-    <li>
-      <strong>app/pages/basic-demo/</strong> - basic database demo
-      <ul>
-        <li><strong>basic-demo.html</strong> - sets up the template for displaying synced data</li>
-        <li><strong>basic-demo.ts</strong> - builds out the @Page for displaying synced data</li>
-      </ul>
-    </li>
-    <li>
-      <strong>app/pages/auth/</strong> - Firebase authentication demo
-      <ul>
-        <li><strong>auth.html</strong> - sets up the template for displaying user auth states</li>
-        <li><strong>auth.ts</strong> - builds out the @Page for integrating user auth states</li>
-        <li><strong>components/</strong> - components used for interacting with auth states
-          <ul>
-            <li>
-              <strong>login.component.ts</strong> - builds the login form, integrats the user service login function
-            </li>
-            <li>
-              <strong>logout.component.ts</strong> - allows the user to logout, resetting the view to display the login form
-            </li>
-          </ul>
+    <h1>Firebase in Angular 2</h1>
+
+    <p>If you're interested in the files that I've changed to integrate Firebase and get this simple auth example
+        working, they're:</p>
+    <ul>
+        <li>
+            <strong>providers/data/data.service.ts</strong> - sets up Firebase database references
         </li>
-      </ul>
-    </li>
-    <li>
-      <strong>app/pages/tabs/tabs.html</strong> - revised tab titles
-    </li>
-  </ul>
+        <li>
+            <strong>providers/user/user.service.ts</strong> - abstracts Firebase auth methods
+        </li>
+        <li>
+            <strong>pages/home/</strong> - the currently active component
+            <ul>
+                <li><strong>home.html</strong> - the template you're currently viewing</li>
+            </ul>
+        </li>
+        <li>
+            <strong>pages/basic-demo/</strong> - basic database demo
+            <ul>
+                <li><strong>basic-demo.html</strong> - sets up the template for displaying synced data</li>
+                <li><strong>basic-demo.ts</strong> - builds out the @Page for displaying synced data</li>
+            </ul>
+        </li>
+        <li>
+            <strong>pages/auth/</strong> - Firebase authentication demo
+            <ul>
+                <li><strong>auth.html</strong> - sets up the template for displaying user auth states</li>
+                <li><strong>auth.ts</strong> - builds out the @Page for integrating user auth states</li>
+            </ul>
+        </li>
+        <li>
+            <strong>pages/tabs/tabs.html</strong> - revised tab titles
+        </li>
+        <li>
+            <strong>components/</strong> - components used for interacting with auth states
+            <ul>
+                <li>
+                    <strong>login.component.ts</strong> - builds the login form, integrates the user service login
+                    function
+                </li>
+                <li>
+                    <strong>logout.component.ts</strong> - allows the user to logout, resetting the view to display the login form
+                </li>
+            </ul>
+        </li>
+
+    </ul>
 </ion-content>
