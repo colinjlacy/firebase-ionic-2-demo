@@ -17,6 +17,8 @@ In order to set up this project, I had to previously create a Firebase app, foll
 
 You can find information on all of these topics in the [Web guide in the Firebase docs](https://firebase.google.com/docs/web/setup).
 
+**You're welcome to continue using my Firebase instance in running this demo**.  Please don't overuse it, as I'm on the free tier and therefore only have a certain amount of requests and connections afforded to me every month.  If you'd like to replace my Firebase account details with your own, instructions on how to do that are listed below.
+
 ### Repo Download
 
 When you clone this repo, it will come with nothing but the app files.  You'll need to run through the installation process for building an Ionic project, which is normally done for you in `ionic start`.
