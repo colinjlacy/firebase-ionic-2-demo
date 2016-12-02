@@ -50,7 +50,7 @@ $ npm install
 ```
 
 #### Make a `www/` Directory
-Yes, that sounds weird, but from my experience, as well as reading through [this issues post]() it looks like you'll need to create a `www/` directory in order for some Cordova-based commands to realize you're in a Cordova-based project.
+Yes, that sounds weird, but from my experience, as well as reading through [this issues post](https://github.com/driftyco/ionic-cli/issues/935) it looks like you'll need to create a `www/` directory in order for some Cordova-based commands to realize you're in a Cordova-based project.
 ```
 $ mkdir www
 ```
