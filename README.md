@@ -44,20 +44,25 @@ Keep in mind that - for whatever reason - this doesn't display any information a
 - Android SDK Tools 24.3.3
 - Android SDK Platform-Tools 23.1
 
-**Note that at the time of this writing, Ionic won't build on Node 6.x.  It looks like it's a bug with the SASS module.**
-
-
 #### Install Node Modules:
 ```
 $ npm install
 ```
 
-#### Add the iOS Platform (Mac only)
+#### Make a `www/` Directory
+Yes, that sounds weird, but from my experience, as well as reading through [this issues post]() it looks like you'll need to create a `www/` directory in order for some Cordova-based commands to realize you're in a Cordova-based project.
 ```
-$ ionic platform add ios
+$ mkdir www
+```
+
+#### Restore the Project State
+The folks at Ionic were nice enough to add a command that builds your project based on the plugin and platform information stored in the `package.json`:
+```
+$ ionic state restore
 ```
 
 #### Add the Android Platform
+If you'd like, add Android.
 ```
 $ ionic platform add android
 ```
